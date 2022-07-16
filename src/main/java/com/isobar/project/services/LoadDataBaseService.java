@@ -1,5 +1,8 @@
 package com.isobar.project.services;
 
+import com.isobar.project.repositories.BandRepository;
+import com.isobar.project.entities.*;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

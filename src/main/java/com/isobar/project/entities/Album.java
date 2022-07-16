@@ -17,7 +17,7 @@ public class Album {
     private List<Track> tracks;
     private String id;
 
-    Album() {}
+    public Album() {}
 
     public Album(String name, String image, String releasedDate, String band, String id) {
         this.name = name;

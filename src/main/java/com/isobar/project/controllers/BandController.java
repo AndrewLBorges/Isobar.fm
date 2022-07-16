@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.isobar.project.repositories.*;
 import com.isobar.project.entities.*;
+import com.isobar.project.exceptions.*;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,7 +27,7 @@ public class BandController {
     // Aggregate root
     // tag::get-aggregate-root[]
     @GetMapping("/bands")
-    List<Employee> all() {
+    List<Band> all() {
         return repository.findAll();
     }
 

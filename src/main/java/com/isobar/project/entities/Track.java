@@ -14,7 +14,7 @@ public class Track {
     private int duration;
     private String id;
 
-    Track() {}
+    public Track() {}
 
     public Track(String name, int duration, String id) {
         this.name = name;

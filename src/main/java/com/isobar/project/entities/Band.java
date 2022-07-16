@@ -19,7 +19,7 @@ public class Band {
     private String id;
     private List<Album> albumList;
 
-    Band() {}
+    public Band() {}
 
     public Band(String name, String image, String genre, String biography, long numPlays, String id) {
         this.name = name;
