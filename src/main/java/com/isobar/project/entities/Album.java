@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import java.util.List;
 
 @Entity
-class Album {
+public class Album {
 
     private String name;
     private String image;

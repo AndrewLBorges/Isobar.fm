@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import java.util.List;
 
 @Entity
-class Track {
+public class Track {
 
     private String name;
     private int duration;
