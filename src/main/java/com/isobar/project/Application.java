@@ -13,6 +13,7 @@ public class Application {
 
 
 	//The project is not quite working but I was able to organize it the way I intended. From here is discovering about the error I'm getting (goal failed to execute)
-	//and creating the other controllers/exceptions/advices. Also implementing the caching part wich I I'm still going to try later
+	//and creating the other controllers/exceptions/advices, as well as actually creating the objects for the entities from the data that is coming from the given Endpoint.
+	// Also implementing the caching part wich  I'm still going to try later.
 
 }
